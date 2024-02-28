@@ -1,0 +1,18 @@
+*{
+    font-family: "Montagu Slab", serif;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+}
+h2{
+    margin-left: 50px;
+}
+.name,.text,.price{
+    text-align: start;
+}
